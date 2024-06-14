@@ -1,0 +1,19 @@
+module.exports = {
+   shipping:{
+    __versions:[
+      'v1'
+    ],
+    __operations:[
+      'createShipment',
+      'getShipment',
+      'cancelShipment',
+      'purchaseLabels',
+      'retrieveShippingLabel',
+      'purchaseShipment',
+      'getRates',
+      'getAccount',
+      'getTrackingInformation'
+    ],
+    ...require('./versions/shipping/shipping_v1')
+  }
+};

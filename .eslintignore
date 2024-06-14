@@ -1,0 +1,8 @@
+**/node_modules/
+**/dist/
+**/build/
+**/.out/
+**/*.d.ts
+idea.js
+scripts
+packages/purity-selling-partner/src/lib/
